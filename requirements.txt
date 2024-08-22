@@ -1,0 +1,7 @@
+jupyter
+pandas
+openai
+matplotlib
+psycopg2
+sqlalchemy
+langchain-community
