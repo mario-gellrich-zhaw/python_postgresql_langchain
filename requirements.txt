@@ -2,6 +2,6 @@ jupyter
 pandas
 openai
 matplotlib
-psycopg2
+psycopg2-binary
 sqlalchemy
 langchain-community
