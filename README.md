@@ -24,7 +24,7 @@
 └─ README.md                   # Documentation (this file)
 ```
 
-## Run Docker containers (usually this starts automatically)
+## Run Docker containers (this starts automatically)
 ```bash
 VS Code -> left Menu -> search file 'docker-compose.yml' -> right click -> Compose Up
 ```
