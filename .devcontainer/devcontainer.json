@@ -1,15 +1,5 @@
 {
-  "name": "Python with PostgreSQL & pgAdmin",
-  "dockerComposeFile": "../docker-compose.yml",
-  "service": "app",
-  "workspaceFolder": "/workspace",
-  "forwardPorts": [
-    5050,
-    5432
-  ],
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  },
+  "name": "Python with PostgreSQL, pgAdmin & LangChain",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -31,9 +21,5 @@
       }
     }
   },
-  "mounts": [
-    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
-  ],
-  "postCreateCommand": "pip install -r requirements.txt",
-  "remoteUser": "root"
+  "postCreateCommand": "pip install -r requirements.txt && docker compose up -d"
 }
