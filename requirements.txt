@@ -6,4 +6,5 @@ psycopg2-binary
 sqlalchemy
 langchain-community
 langchain-classic
+langchain-openai
 python-dotenv
