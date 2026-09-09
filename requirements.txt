@@ -5,3 +5,5 @@ matplotlib
 psycopg2-binary
 sqlalchemy
 langchain-community
+langchain-classic
+python-dotenv
